@@ -19,17 +19,23 @@ export default function Home() {
           content="Join a community for women excelling in their DevOps careers!"
         />
         <meta property="og:type" content="website" />
-        <meta property="og:image" content="LadiesInDevOpsSocial.png" />
+        <meta
+          property="og:image"
+          content="https://ladiesindevops.com/LadiesInDevOpsSocial.png"
+        />
 
         <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:site" content="@nytimes" />
-        <meta name="twitter:creator" content="@SarahMaslinNir" />
+        <meta name="twitter:site" content="https://ladiesindevops.com" />
+        <meta name="twitter:creator" content="@paulienuh" />
         <meta name="twitter:title" content="Ladies in DevOps" />
         <meta
           name="twitter:description"
           content="Join a community for women excelling in their DevOps careers!"
         />
-        <meta name="twitter:image" content="LadiesInDevOpsSocial.png" />
+        <meta
+          name="twitter:image"
+          content="https://ladiesindevops.com/LadiesInDevOpsSocial.png"
+        />
       </Head>
       <img src="LadiesInDevOps.jpeg" className={styles.icon} />
       <main className={styles.main}>
