@@ -73,7 +73,7 @@ export default function Home() {
           DevOps profession already{" "}
           <em>
             (or similar - e.g. Site Reliability Engineers, Cloud Engineers,
-            Operational Support Analysts)
+            Operational Support)
           </em>{" "}
           and/or those who are interested in learning more from a tight-knit
           community.
