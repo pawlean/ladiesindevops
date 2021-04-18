@@ -61,7 +61,7 @@ export default function Home() {
           <ul>
             <ol>
               {" "}
-              <strong>1)</strong> We often find ourselves being the only woman
+              <strong>1) </strong> We often find ourselves being the only woman
               in our DevOps teams. This can be quite isolating.
             </ol>
             <ol>
