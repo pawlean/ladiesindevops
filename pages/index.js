@@ -63,8 +63,8 @@ export default function Home() {
               opportunities in the DevOps space. We want to change this!
             </ol>
           </ul>
-          This community welcomes all women or self-identifying women who are in
-          that DevOps profession already{" "}
+          This community welcomes all self-identifying women who are in that
+          DevOps profession already{" "}
           <em>
             (or similar - e.g. Site Reliability Engineers, Cloud Engineers,
             Operational Support Analysts)
