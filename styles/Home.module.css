@@ -7,7 +7,6 @@
   align-items: center;
   background: #1a1c28;
 }
-
 .main {
   flex: 1;
   display: flex;
@@ -26,13 +25,6 @@
 }
 .main strong {
   background-color: #fd035d;
-}
-.footer a {
-  color: white;
-  border-bottom: 1px dotted #121d5e;
-}
-.footer a:hover {
-  color: #121d5e;
 }
 .icon {
   width: 30%;
@@ -63,60 +55,26 @@
   font-size: 0.8rem;
   text-transform: uppercase;
 }
-
 .footer a {
   display: flex;
   justify-content: center;
   align-items: center;
 }
-
-.title a {
-  color: #0070f3;
-  text-decoration: none;
+.footer a {
+  color: white;
+  border-bottom: 1px dotted #121d5e;
 }
-
-.title a:hover,
-.title a:focus,
-.title a:active {
-  text-decoration: underline;
+.footer a:hover {
+  color: #121d5e;
 }
-
-.title {
-  margin: 0;
-  line-height: 1.15;
-  font-size: 4rem;
-}
-
-.title,
-.description {
-  text-align: center;
-}
-
-.description {
-  line-height: 1.5;
-  font-size: 1.5rem;
-}
-
-.code {
-  background: #fafafa;
-  border-radius: 5px;
-  padding: 0.75rem;
-  font-size: 1.1rem;
-  font-family: Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono,
-    Bitstream Vera Sans Mono, Courier New, monospace;
-}
-.grid {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-wrap: wrap;
-  max-width: 800px;
-  margin-top: 3rem;
-}
-
 @media (max-width: 600px) {
-  .grid {
+  .icon {
     width: 100%;
-    flex-direction: column;
+  }
+  .main {
+    width: 90%;
+  }
+  .discord {
+    width: 90%;
   }
 }
