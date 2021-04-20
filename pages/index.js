@@ -44,8 +44,8 @@ export default function Home() {
           <a href="https://twitter.com/paulienuh" target="_blank">
             Pauline
           </a>{" "}
-          after an recording an inspiring podcast episode{" "}
-          <em>(coming soon!)</em> with 3 DevOps Engineers (
+          after recording an inspiring podcast episode <em>(coming soon!)</em>{" "}
+          with 3 DevOps Engineers (
           <a href="https://twitter.com/erlydr" target="_blank">
             Erleene
           </a>
