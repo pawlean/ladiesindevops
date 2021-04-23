@@ -26,7 +26,7 @@ export default function Home() {
 
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:site" content="https://ladiesindevops.com" />
-        <meta name="twitter:creator" content="@paulienuh" />
+        <meta name="twitter:creator" content="@ladiesindevops" />
         <meta name="twitter:title" content="Ladies in DevOps" />
         <meta
           name="twitter:description"
