@@ -43,7 +43,7 @@ export default function Home() {
                 </a> //
 
                 <a href="https://clarknarvas.com/" target="_blank">
-                    Logo designed by Clark Narvas
+                    Logo
         </a>
             </footer>
         </div>
