@@ -12,9 +12,9 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
   color: white;
   width: 50%;
+  padding-bottom: 50px;
 }
 .main a {
   color: #d8acbc;
@@ -42,6 +42,23 @@
 }
 .main ul {
   padding: 0;
+}
+.main h2 {
+color: #fd035d;
+text-decoration: underline;
+}
+.smalltext {
+    color: grey;
+    font-size: 10pt;
+}
+.back a{
+    background: #fd035d;
+    border-radius: 5px;
+    padding: 10px;
+    color: white;
+}
+.back a:hover {
+    background: #d8acbc;
 }
 .footer {
   margin-top: 5rem;
