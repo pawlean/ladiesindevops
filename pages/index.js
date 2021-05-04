@@ -57,10 +57,11 @@ export default function Home() {
                     <a href="https://twitter.com/YasminYAli" target="_blank">
                         Yasmin
           </a>
-          )
-          </p>
+          ). You can listen to the episode below or whatever your favourite podcast platform is. 🎧 </p>
                 <p>
                     <iframe src="https://open.spotify.com/embed-podcast/episode/0P9mLG4NY1lVu4F79onwnA" width="100%" height="232" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+                </p>
+                <p>If you prefer to read the transcript of the episode, <a href="https://podcast.pawlean.com/1245857/8426766-getting-into-devops-w-erleene-yasmin-rahmat" target="_blank">check it out here!</a>
                 </p>
                 <p>
                     Off the back of that conversation, we highlighted two things:
@@ -82,17 +83,19 @@ export default function Home() {
                         Operational Support)
           </em>{" "}
           and/or those who are interested in learning more from a tight-knit
-          community. We currently have over 400+ community members from all around the world! 🌎
+          community.
         </p>
-
+                <p> 🌱 <a href="/sponsorship" >Support our community!</a> // 📚 <a href="https://dev.to/ladiesindevops" target="_blank" >Read our community posts</a> // ⭐️ <a href="https://mee6.xyz/ladiesindevops" target="_blank" >Meet our community</a></p>
             </main>
             <center>
+                <p>We currently have over 400+ community members from all around the world! 🌎 </p>
                 <p>Join our growing community today 👇🏼</p>
                 <a href="https://discord.gg/UtPpDuxzgY" target="_blank">
                     <img src="Discord.png" className={styles.discord} />
                 </a>
 
             </center>
+
             <footer className={styles.footer}>
                 <a href="https://twitter.com/ladiesindevops" target="_blank">
                     Twitter
