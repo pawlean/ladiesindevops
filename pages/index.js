@@ -1,5 +1,6 @@
 import Head from "next/head";
 import styles from "../styles/Home.module.css";
+import Footer from "../components/footer.js";
 
 export default function Home() {
     return (
@@ -95,22 +96,7 @@ export default function Home() {
                 </a>
 
             </center>
-
-            <footer className={styles.footer}>
-                <a href="https://twitter.com/ladiesindevops" target="_blank">
-                    Twitter
-                </a> //
-                <a href="https://instagram.com/ladiesindevops" target="_blank">
-                    Instagram
-                </a> //
-                <a href="https://linkedin.com/company/ladiesindevops" target="_blank">
-                    LinkedIn
-                </a> //
-
-                <a href="https://clarknarvas.com/" target="_blank">
-                    Logo
-        </a>
-            </footer>
+            <Footer />
         </div>
     );
 }
