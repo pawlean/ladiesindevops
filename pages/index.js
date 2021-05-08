@@ -85,7 +85,7 @@ export default function Home() {
           and/or those who are interested in learning more from a tight-knit
           community.
         </p>
-                <p> 🌱 <a href="/sponsorship" >Support our community!</a> // 📚 <a href="https://dev.to/ladiesindevops" target="_blank" >Read our community posts</a> // ⭐️ <a href="https://mee6.xyz/ladiesindevops" target="_blank" >Meet our community</a></p>
+                <p> 🌱 <a href="/sponsorship" >Support our community!</a> // 😎 <a href="/showcase" >Showcase</a> // 📚 <a href="https://dev.to/ladiesindevops" target="_blank" >Read our community posts</a> // ⭐️ <a href="https://mee6.xyz/ladiesindevops" target="_blank" >Meet our community</a></p>
             </main>
             <center>
                 <p>We currently have over 400+ community members from all around the world! 🌎 </p>
