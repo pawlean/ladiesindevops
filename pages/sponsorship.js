@@ -2,7 +2,7 @@ import styles from "../styles/Home.module.css";
 import Footer from "../components/footer.js";
 import Button from "../components/button.js";
 
-export default function Sponsorship() {
+function Sponsorship() {
   return (
     <div className={styles.container}>
       <main className={styles.main}>
@@ -95,3 +95,4 @@ export default function Sponsorship() {
     </div>
   );
 }
+export default Sponsorship;
