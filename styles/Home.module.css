@@ -147,3 +147,26 @@ text-decoration: underline;
 .back a:hover {
     background: #d8acbc;
 }
+/* Responsive */
+@media (max-width: 600px) {
+  .icon {
+    width: 100%;
+  }
+  .main blockquote{
+  width:100%;
+  }
+  .main, .lightblue{
+      padding: 30px;
+  }
+  .main p{
+    width: 90%;
+
+  }
+   .lightblue p{
+    width: 90%;
+
+  }
+  .discord {
+    width: 90%;
+  }
+}
