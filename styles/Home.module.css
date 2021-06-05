@@ -89,6 +89,7 @@
 }
 .main h2 {
 color: #fd035d;
+width: 40%;
 text-decoration: underline;
 }
 
@@ -133,6 +134,9 @@ text-decoration: underline;
 .smalltext {
     color: grey;
     font-size: 10pt;
+}
+.back {
+  margin-bottom: 100px;
 }
 .back a{
     background: #fd035d;

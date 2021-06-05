@@ -10,6 +10,7 @@ function Sponsorship() {
           Thank you for your interest in sponsoring the “Ladies in DevOps”
           community!
         </h1>
+
         <p>
           "Ladies in DevOps" started in April 2021 with one mission in mind: to
           bring together self-identifying women who either work in the DevOps
@@ -20,19 +21,19 @@ function Sponsorship() {
           really appreciate your support in our community.
         </p>
         <p>Here are ways that you can get involved and support us:</p>
-        <h2>Paid support 💰</h2>
-        <h3>
+        <p><h2>Paid support 💰</h2></p>
+        <p><h3>
           <strong>1.</strong> Have a dedicated channel on our Discord{" "}
-        </h3>
+        </h3></p>
         <p>
           This will be a dedicated space for you to hang out with our community
           and share opportunities e.g. events/workshops that your company is
           holding or jobs that you’d like to advertise.
         </p>
 
-        <h3>
+        <p><h3>
           <strong>2.</strong> Fund learning & development opportunities
-        </h3>
+        </h3></p>
         <p>
           In this support tier, you’ll be able to fund a course or resource for
           our community members to thrive in their journey in the DevOps space.
@@ -41,36 +42,36 @@ function Sponsorship() {
           most. <u>Examples:</u> O'Reilly books, Udemy courses, Tech World With
           Nana courses, ACloudGuru membership.
         </p>
-        <h3>
+       <p> <h3>
           <strong>3.</strong> Sponsor a giveaway!
-        </h3>
+        </h3></p>
         <p>
           You can support us by sponsoring a giveaway! This can be anything of
           your choice, examples include learning resources, tech (e.g.
           headphones, laptops, keyboards etc.), things to help with WFH and
           more. Your choice to be creative and give back to our community!
         </p>
-        <h3>
+        <p><h3>
           <strong>4.</strong> Sponsor our community events (coming soon)
-        </h3>
+        </h3></p>
         <p>
           We’re hoping to organise some community events within our Discord
           server. You can support this by sponsoring the event which gives you a
           dedicated channel on our Discord and your logo on event presentations
           and other assets (videos, tweets etc.) across social media.
         </p>
-        <h2>Free support 🌱</h2>
-        <h3>
+        <p><h2>Free support 🌱</h2></p>
+        <p><h3>
           <strong>1.</strong> Share our community internally
-        </h3>
+        </h3></p>
         <p>
           If there are any groups in your company that you think would benefit
           from being part of Ladies in DevOps - please do share!
         </p>
 
-        <h3>
+        <p><h3>
           <strong>2.</strong> Share our community on social media
-        </h3>
+        </h3></p>
         <p>
           We share posts across our social media accounts -{" "}
           <a href="https://twitter.com/ladiesindevops">Twitter</a>,{" "}
@@ -91,6 +92,7 @@ function Sponsorship() {
       </main>
 
       <Button />
+      
       <Footer />
     </div>
   );
