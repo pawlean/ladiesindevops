@@ -3,9 +3,10 @@ import styles from "../styles/Home.module.css";
 export default function Why() {
     return (
        <div className={styles.lightblue}>
+                                 <h1>The story behind Ladies in DevOps</h1>
+
                   <p>
-                      <h1>The story behind Ladies in DevOps</h1>
-          <em>"Ladies in DevOps"</em> was first created by{" "}
+          Ladies in DevOps was first created by{" "}
           <a href="https://twitter.com/paulienuh" target="_blank">
             Pauline
           </a>{" "}
@@ -21,8 +22,15 @@ export default function Why() {
           <a href="https://twitter.com/YasminYAli" target="_blank">
             Yasmin
           </a>
-          ). You can listen to the episode below or whatever your favourite
-          podcast platform is. 🎧{" "}
+          ). </p>
+          <p>You can listen to the episode below or whatever your favourite
+          podcast platform is. 🎧{" "}  If you prefer to read the transcript of the episode,{" "}
+          <a
+            href="https://podcast.pawlean.com/1245857/8426766-getting-into-devops-w-erleene-yasmin-rahmat"
+            target="_blank"
+          >
+            check it out here!
+          </a>
         </p>
         <p>
           <iframe
@@ -35,35 +43,19 @@ export default function Why() {
           ></iframe>
         </p>
         <p>
-          If you prefer to read the transcript of the episode,{" "}
-          <a
-            href="https://podcast.pawlean.com/1245857/8426766-getting-into-devops-w-erleene-yasmin-rahmat"
-            target="_blank"
-          >
-            check it out here!
-          </a>
-        </p>
-        <p>
           Off the back of that conversation, we highlighted two things:
           <ul>
             <ol>
               {" "}
-              <strong>1) </strong> We often find ourselves being the only woman
+              <strong>1|</strong> We often find ourselves being the <u>only</u> woman
               in our DevOps teams. This can be quite isolating.
             </ol>
             <ol>
-              <strong>2) </strong> There lacks visibility of the exciting career
-              opportunities in the DevOps space. We want to change this!
+              <strong>2|</strong> There lacks visibility of the exciting career
+              opportunities in the DevOps space compared to Software Engineering.
             </ol>
           </ul>
-          This community welcomes all self-identifying women who are in that
-          DevOps profession already{" "}
-          <em>
-            (or similar - e.g. Site Reliability Engineers, Cloud Engineers,
-            Operational Support)
-          </em>{" "}
-          and/or those who are interested in learning more from a tight-knit
-          community.
+         Our mission with this community is to try and change that.
         </p>
        </div>
 

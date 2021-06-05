@@ -6,12 +6,18 @@
   justify-content: center;
   align-items: center;
   background: #1a1c28;
+  color: white;
 }
 .lightblue {
   background: #595e7d;
   width: 100%;
   padding: 100px;
-
+}
+.lightblue p {
+    text-align: justify;
+}
+.lightblue, .main h1 {
+  text-align: center;
 }
 .videoWrapper {
   position: relative;
@@ -26,14 +32,15 @@
   height: 100%;
 }
 .main {
-
-  color: white;
-    width: 100%;
+  width: 100%;
   padding: 100px;
 }
 .main a {
   color: #d8acbc;
   border-bottom: 1px dotted #fd035d;
+}
+.imagelink a {
+    border-bottom: none;
 }
 .main a:hover {
   color: #fd035d;
@@ -41,23 +48,31 @@
 .main strong {
   background-color: #fd035d;
 }
+.lightblue a {
+  color: #e4cad3;
+  border-bottom: 1px dotted #fd035d;
+}
+.lightblue a:hover {
+  color: #fd035d;
+}
+.lightblue strong {
+  background-color: #fd035d;
+}
+.lightblue ol {
+  padding: 0px;
+  margin-bottom: 10px;
+  text-align: left;
+}
 .icon {
-  width: 30%;
+  width: 60%;
 }
 .icon a {
   border-bottom: none;
 }
 .discord {
-  width: 30%;
+  width: 100%;
 }
-.main ol {
-  margin: 0;
-  padding-bottom: 20px;
-  padding-left: 20px;
-}
-.main ul {
-  padding: 0;
-}
+
 .main h2 {
 color: #fd035d;
 text-decoration: underline;
@@ -76,27 +91,3 @@ text-decoration: underline;
     background: #d8acbc;
 }
 
-.main ul {
-  padding-left: 20px;
-}
-.footer a {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-.footer a {
-  color: white;
-  border-bottom: 1px dotted #121d5e;
-}
-
-@media (max-width: 600px) {
-  .icon {
-    width: 100%;
-  }
-  .main {
-    width: 90%;
-  }
-  .discord {
-    width: 90%;
-  }
-}

@@ -6,7 +6,7 @@ export default function Links() {
        <p>
          <h1>Our Community</h1>
           <ul>
-            <li>🌱 <a href="/sponsorship">Support our community!</a>
+            <li>🌱 <a href="/sponsorship">Support us</a>
               </li>
               <li>😎 <a href="/showcase">Showcase</a></li>
               <li> 📚
@@ -16,10 +16,6 @@ export default function Links() {
           <li>⭐️{" "}
           <a href="https://mee6.xyz/ladiesindevops" target="_blank">
             Meet our community
-          </a></li>
-          <li>💜 {" "}
-          <a href="https://www.youtube.com/watch?v=b96Jp1dVuRk&ab_channel=RVUYouTube" target="_blank">
-            What Pauline learnt from starting the 'Ladies in DevOps' community
           </a></li>
               </ul>
         </p>
