@@ -11,7 +11,7 @@ function Showcase() {
           <ul>
             <li>
               <a href="https://devxconf.org/expo" target="_blank">
-                DevX Conf - Partner Exposition
+                🙌🏼 DevX Conf - Partner Exposition
               </a>
             </li>
             <li>
@@ -19,12 +19,17 @@ function Showcase() {
                 href="https://www.thedevcoach.co.uk/best-online-cloud-communities/"
                 target="_blank"
               >
-                Open Up The Cloud Article - Best Online Communities
+                📝 Open Up The Cloud Article - Best Online Communities
               </a>
             </li>
             <li>
               <a href="https://www.eddiehub.org/?r_done=1" target="_blank">
-                EddieHub Community Partner
+                🙌🏼 EddieHub Community Partner
+              </a>
+            </li>
+             <li>
+              <a href="https://www.youtube.com/watch?v=b96Jp1dVuRk&ab_channel=RVUYouTube" target="_blank">
+                🎥 What I learnt from starting Ladies in DevOps community by Pauline Narvas
               </a>
             </li>
           </ul>

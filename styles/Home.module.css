@@ -6,19 +6,71 @@
   justify-content: center;
   align-items: center;
   background: #1a1c28;
-}
-.main {
-  flex: 1;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
   color: white;
-  width: 50%;
-  padding-bottom: 50px;
+}
+/* Light Blue Section */
+.lightblue {
+  background: #595e7d;
+  width: 100%;
+  padding: 100px;
+}
+.lightblue p {
+    text-align: justify;
+    width: 50%;
+    margin: 0 auto;
+    line-height: 30px;
+    padding-bottom: 20px;
+}
+.lightblue, .main h1 {
+  text-align: center;
+}
+.lightblue a {
+  color: #e4cad3;
+  border-bottom: 1px dotted #fd035d;
+}
+.lightblue a:hover {
+  color: #fd035d;
+}
+.lightblue strong {
+  background-color: #fd035d;
+}
+.lightblue ol {
+  padding: 0px;
+  margin-bottom: 10px;
+  text-align: left;
+}
+/* Main section */
+.main {
+  width: 100%;
+  padding: 100px;
+}
+.main p {
+   text-align: justify;
+    width: 50%;
+    margin: 0 auto;
+    line-height: 30px;
+    padding-bottom: 20px;
 }
 .main a {
   color: #d8acbc;
   border-bottom: 1px dotted #fd035d;
+}
+
+.videoWrapper {
+  position: relative;
+  padding-bottom: 56.25%; /* 16:9 */
+  height: 0;
+}
+.videoWrapper iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.imagelink a {
+    border-bottom: none;
+
 }
 .main a:hover {
   color: #fd035d;
@@ -27,29 +79,64 @@
   background-color: #fd035d;
 }
 .icon {
-  width: 30%;
+  width: 40%;
 }
 .icon a {
   border-bottom: none;
 }
 .discord {
-  width: 30%;
-}
-.main ol {
-  margin: 0;
-  padding-bottom: 20px;
-  padding-left: 20px;
-}
-.main ul {
-  padding: 0;
+  width: 50%;
 }
 .main h2 {
 color: #fd035d;
+width: 40%;
 text-decoration: underline;
 }
+
+.main blockquote{
+  width:60%;
+  margin:50px auto;
+  font-style:italic;
+  color: #FFF;
+  padding:1.2em 30px 1.2em 75px;
+  border-left:8px solid #fd035d ;
+  line-height:1.6;
+  position: relative;
+  background:#595e7d;
+}
+.main blockquote::before{
+  font-family:Arial;
+  content: "\201C";
+  color:#fd035d;
+  font-size:4em;
+  position: absolute;
+  left: 10px;
+  top:-10px;
+}
+
+.main blockquote::after{
+  content: '';
+}
+
+.main blockquote span{
+  display:block;
+  color:#333333;
+  font-style: normal;
+  font-weight: bold;
+  margin-top:1em;
+}
+
+.community p {
+  text-align: center;
+}
+
+/* Extra styles */
 .smalltext {
     color: grey;
     font-size: 10pt;
+}
+.back {
+  margin-bottom: 100px;
 }
 .back a{
     background: #fd035d;
@@ -60,36 +147,24 @@ text-decoration: underline;
 .back a:hover {
     background: #d8acbc;
 }
-.footer {
-  margin-top: 5rem;
-  width: 100%;
-  height: 100px;
-  background: #595e7d;
-  color: white;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-size: 0.8rem;
-  text-transform: uppercase;
-}
-.footer a {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-.footer a {
-  color: white;
-  border-bottom: 1px dotted #121d5e;
-}
-.footer a:hover {
-  color: #121d5e;
-}
+/* Responsive */
 @media (max-width: 600px) {
   .icon {
     width: 100%;
   }
-  .main {
+  .main blockquote{
+  width:100%;
+  }
+  .main, .lightblue{
+      padding: 30px;
+  }
+  .main p{
     width: 90%;
+
+  }
+   .lightblue p{
+    width: 90%;
+
   }
   .discord {
     width: 90%;
