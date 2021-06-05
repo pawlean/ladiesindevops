@@ -12,7 +12,6 @@ export default function Footer() {
             <a href="https://linkedin.com/company/ladiesindevops" target="_blank">
                 LinkedIn
                 </a> //
-
             <a href="https://clarknarvas.com/" target="_blank">
                 Logo
                 </a>

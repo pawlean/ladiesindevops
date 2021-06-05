@@ -17,12 +17,11 @@ export default function Discord() {
           <p>
           We currently have over 450+ members from all around the
           world! 🌎{" "}
-        </p>
-        <p>Join our growing community today 👇🏼</p>
+  Join our growing community today 👇🏼</p>
         <div className={styles.imagelink}>
-        <a href="https://discord.gg/MGWfCuW9Ku" target="_blank" >
+       <center> <a href="https://discord.gg/MGWfCuW9Ku" target="_blank" >
           <img src="Discord.png" className={styles.discord} />
-        </a>
+        </a></center>
         </div>
        </div>
 
