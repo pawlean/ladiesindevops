@@ -27,9 +27,18 @@ function Showcase() {
                 🙌🏼 EddieHub Community Partner
               </a>
             </li>
-             <li>
-              <a href="https://www.youtube.com/watch?v=b96Jp1dVuRk&ab_channel=RVUYouTube" target="_blank">
-                🎥 What I learnt from starting Ladies in DevOps community by Pauline Narvas
+            <li>
+              <a
+                href="https://www.youtube.com/watch?v=b96Jp1dVuRk&ab_channel=RVUYouTube"
+                target="_blank"
+              >
+                🎥 What I learnt from starting Ladies in DevOps community by
+                Pauline Narvas
+              </a>
+            </li>
+            <li>
+              <a href="https://www.diverse.fyi/" target="_blank">
+                ⚡️ Diverse.FYI
               </a>
             </li>
           </ul>
