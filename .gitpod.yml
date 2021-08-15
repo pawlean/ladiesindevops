@@ -1,8 +1,12 @@
 tasks:
-  - init: npm install
+  - name: Install dependencies & run dev environment
+    init: npm install
     command: npm run dev
-  - command: echo "for git"
+    openMode: split-left
+  - name: A terminal for git
+    command: echo "here's an open terminal for git"
+    openMode: split-right
 
 vscode:
   extensions:
-    - esbenp.prettier-vscode@6.3.2:13e527ae62035854197198eedd2bc84f
+    - esbenp.prettier-vscode@6.3.2
