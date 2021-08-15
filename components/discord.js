@@ -15,7 +15,7 @@ export default function Discord() {
         community.
       </p>
       <p>
-        We currently have over <u>500+ members</u> from all around the world! 🌎{" "}
+        We currently have over <u>550+ members</u> from all around the world! 🌎{" "}
         Join our growing community today 👇🏼
       </p>
       <div className={styles.imagelink}>
