@@ -7,6 +7,11 @@ tasks:
     command: echo "here's an open terminal for git"
     openMode: split-right
 
+ports:
+  - port: 3000
+    onOpen: open-preview
+    visibility: private
+    
 vscode:
   extensions:
     - esbenp.prettier-vscode@6.3.2
