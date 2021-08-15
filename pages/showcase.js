@@ -41,6 +41,11 @@ function Showcase() {
                 ⚡️ Diverse.FYI
               </a>
             </li>
+            <li>
+              <a href="https://jbcole.co.uk/blog/mind-the-gap/" target="_blank">
+                📖 Mind the Gap: Community building online
+              </a>
+            </li>
           </ul>
         </p>
       </main>
