@@ -21,7 +21,7 @@ export default function Discord() {
       <div className={styles.imagelink}>
         <center>
           {" "}
-          <a href="https://discord.gg/MGWfCuW9Ku" target="_blank">
+          <a href=" https://discord.gg/UtPpDuxzgY" target="_blank">
             <img src="Discord.png" className={styles.discord} />
           </a>
         </center>
