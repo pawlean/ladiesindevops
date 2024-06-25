@@ -6,7 +6,7 @@ function MyApp({ Component, pageProps }) {
     <link rel="icon" href="/favicon.ico" />
     <meta
       property="og:title"
-      content="Ladies in DevOps - Join the community today!"
+      content="Ladies in DevOps - join the community today!"
     />
     <meta property="og:site_name" content="Ladies in DevOps" />
     <meta property="og:url" content="https://ladiesindevops.com" />
