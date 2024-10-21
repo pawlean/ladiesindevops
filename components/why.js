@@ -23,7 +23,7 @@ export default function Why() {
             Yasmin
           </a>
           ). </p>
-        <p>
+        <div>
           Off the back of that conversation, we highlighted two things:
           <ul>
             <ol>
@@ -37,7 +37,7 @@ export default function Why() {
             </ol>
           </ul>
          Our mission with this community is to try and change that.
-        </p>
+        </div>
        </div>
 
     );

@@ -7,7 +7,7 @@ function Showcase() {
     <div className={styles.container}>
       <main className={styles.main}>
         <h1>🏆 Showcase</h1>
-        <p>
+        <div>
           <ul>
             <li>
               <a href="https://devxconf.org/expo" target="_blank">
@@ -47,7 +47,7 @@ function Showcase() {
               </a>
             </li>
           </ul>
-        </p>
+        </div>
       </main>
 
       <Button />
