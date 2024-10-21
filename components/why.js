@@ -23,25 +23,6 @@ export default function Why() {
             Yasmin
           </a>
           ). </p>
-          <p>You can listen to the episode below or whatever your favourite
-          podcast platform is. 🎧{" "}  If you prefer to read the transcript of the episode,{" "}
-          <a
-            href="https://podcast.pawlean.com/1245857/8426766-getting-into-devops-w-erleene-yasmin-rahmat"
-            target="_blank"
-          >
-            check it out here!
-          </a>
-        </p>
-        <p>
-          <iframe
-            src="https://open.spotify.com/embed-podcast/episode/0P9mLG4NY1lVu4F79onwnA"
-            width="100%"
-            height="232"
-            frameborder="0"
-            allowtransparency="true"
-            allow="encrypted-media"
-          ></iframe>
-        </p>
         <p>
           Off the back of that conversation, we highlighted two things:
           <ul>
