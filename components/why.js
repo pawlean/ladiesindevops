@@ -23,21 +23,21 @@ export default function Why() {
             Yasmin
           </a>
           ). </p>
-        <div>
+        <p>
           Off the back of that conversation, we highlighted two things:
-          <ul>
-            <ol>
+          </p>
+          <p>
               {" "}
               <strong>1|</strong> We often find ourselves being the <u>only</u> woman
               in our DevOps teams. This can be quite isolating.
-            </ol>
-            <ol>
+            </p>
+            <p>
               <strong>2|</strong> There lacks visibility of the exciting career
               opportunities in the DevOps space compared to Software Engineering.
-            </ol>
-          </ul>
+            </p>
+            <p>
          Our mission with this community is to try and change that.
-        </div>
+        </p>
        </div>
 
     );
